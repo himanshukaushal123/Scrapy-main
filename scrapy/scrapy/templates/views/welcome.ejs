@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+    <!-- meta charset -->
+    <meta charset="utf-8">
+    <!-- site title -->
+    <title>Presentation || Scrapy</title>
+    <!-- meta description -->
+    <meta name="description" content="">
+    <!-- mobile viwport meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- fevicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- ================================
+        CSS Files
+        ================================= -->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Open+Sans:400,600,700,800"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/themefisher-fonts.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/dark.css">
+    <link id="color-changer" rel="stylesheet" href="css/colors/color-0.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="img/style.css" />
+    <style>
+        .mySlides {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="dark">
+
+    <div class="preloader">
+        <div class="loading-mask"></div>
+        <div class="loading-mask"></div>
+        <div class="loading-mask"></div>
+        <div class="loading-mask"></div>
+        <div class="loading-mask"></div>
+    </div>
+
+    <div class="preview-wrapper">
+        
+    </div>
+
+    <main class="site-wrapper">
+        <div class="pt-table">
+            <div class="pt-tablecell page-quotes relative">
+                <!-- .close -->
+                <a href="./" class="page-close"><i class="tf-ion-close"></i></a>
+                <!-- /.close -->
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+                            <div class="page-title text-center">
+                                <h2>Scrapy <span class="primary">Presentation</span><span class="title-bg">Speech</span>
+                                </h2>
+                                <p><a class="btn w3-center" style="color:rgb(255, 123, 0); font-weight: bold; "
+                                        href="https://docs.google.com/presentation/d/1988phGS_4moEXrCSIEjfpUEwPVDuT4VPDY_Et357cZw/edit?usp=sharing">SLIDE
+                                        LINK</a></p>
+                            </div>
+                        </div>
+                    </div> <!-- /.row -->
+
+                    <div class="row">
+                        <div class="w3-content w3-display-container">
+                            <img class="mySlides" src="img/welcome/336.jpg" alt="no pic" style="width: 100%" />
+                            <img class="mySlides" src="img/welcome/337.jpg" style="width: 100%" />
+                            <img class="mySlides" src="img/welcome/338.jpg" style="width: 100%" />
+                            <img class="mySlides" src="img/welcome/339.jpg" style="width: 100%" />
+                            <img class="mySlides" src="img/welcome/340.jpg" style="width: 100%" />
+                            <img class="mySlides" src="img/welcome/341.jpg" style="width: 100%" />
+                            <img class="mySlides" src="img/welcome/342.jpg" style="width: 100%" />
+                            <img class="mySlides" src="img/welcome/343.jpg" style="width: 100%" />
+                            <img class="mySlides" src="img/welcome/344.jpg" style="width: 100%" />
+                            <img class="mySlides" src="img/welcome/345.jpg" style="width: 100%" />
+                            <img class="mySlides" src="img/welcome/346.jpg" style="width: 100%" />
+                            <img class="mySlides" src="img/welcome/347.jpg" style="width: 100%" />
+                            <img class="mySlides" src="img/welcome/348.jpg" style="width: 100%" />
+
+                            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">
+                                &#10094;
+                            </button>
+                            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">
+                                &#10095;
+                            </button>
+                        </div>
+                    </div> <!-- /.row -->
+                </div> <!-- /.container -->
+
+
+                <!-- /.container -->
+
+            </div> <!-- /.pt-tablecell -->
+        </div> <!-- /.pt-table -->
+    </main> <!-- /.site-wrapper -->
+
+    <!-- ================================
+        JavaScript Libraries
+        ================================= -->
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        function plusDivs(n) {
+            showDivs((slideIndex += n));
+        }
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) {
+                slideIndex = x.length;
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery-validation.min.js"></script>
+    <script src="js/form.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
